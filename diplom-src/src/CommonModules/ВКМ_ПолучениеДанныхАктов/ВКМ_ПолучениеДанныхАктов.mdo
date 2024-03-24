@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="890a2f57-afb5-41cc-a58e-e35ee5ed0569">
+  <name>ВКМ_ПолучениеДанныхАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение данных актов</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

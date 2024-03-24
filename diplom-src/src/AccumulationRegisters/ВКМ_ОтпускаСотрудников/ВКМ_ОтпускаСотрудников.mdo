@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b3ad94b-cd29-4a45-9682-233170287d42">
+  <producedTypes>
+    <selectionType typeId="8842dfdb-edca-4e0d-adc9-ceb90ba79cc9" valueTypeId="f9a28749-7589-48dd-a284-3cd9de59b93f"/>
+    <listType typeId="1895df4e-bb07-42fc-a51b-f5dbc2a19122" valueTypeId="4ac06262-1400-41f2-a878-90ae625e3d2a"/>
+    <managerType typeId="218b6cf5-a8d0-4ad9-8280-47c7d0e88012" valueTypeId="6f25be50-81a6-4dbf-b568-97fbbdd35c89"/>
+    <recordSetType typeId="8c7d0855-5191-4f35-95cf-6f13a90b3607" valueTypeId="30d194a4-ce87-4fa8-8216-57addbfcc7fc"/>
+    <recordKeyType typeId="bc3d0057-523c-4cbf-b3c2-a5034b4c5a9f" valueTypeId="c835b8aa-52f8-4859-ab50-9a03aa28aaec"/>
+    <recordType typeId="d5ff59be-e96a-4ffc-9af3-78d2aa2bddc7" valueTypeId="b312d7c6-f89f-4c50-90e2-580dbab1d8b6"/>
+  </producedTypes>
+  <name>ВКМ_ОтпускаСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отпуска сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="fb1bcdd1-e066-473c-9830-82e3396a189b">
+    <name>ВКМ_КоличествоДнейОтпускаПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней отпуска план</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="e3a98390-e93f-43be-bd41-57223402f0f0">
+    <name>ВКМ_КоличествоДнейОтпускаФакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней отпуска факт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b9b5539f-5ad6-4c97-bd2a-0c9bdf749423">
+    <name>ВКМ_Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

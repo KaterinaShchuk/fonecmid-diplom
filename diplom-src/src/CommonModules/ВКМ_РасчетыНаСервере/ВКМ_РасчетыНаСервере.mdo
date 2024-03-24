@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e191e40a-a25d-4cff-8658-49c830a04ed4">
+  <name>ВКМ_РасчетыНаСервере</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты на сервере</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
