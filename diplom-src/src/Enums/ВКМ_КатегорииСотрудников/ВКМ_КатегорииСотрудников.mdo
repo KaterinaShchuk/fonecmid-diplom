@@ -26,4 +26,25 @@
       <value>Административный персонал</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="d9ef145c-b657-426f-8447-3b3dbb348424">
+    <name>ВКМ_Менеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd5e8349-f4b2-4896-a74c-6de77105dd92">
+    <name>ВКМ_БухгалтерИТФирмы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтер ИТ-Фирмы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="10b73e9d-ccb4-4659-93e3-8695d5a43130">
+    <name>ВКМ_КадровикРасчетчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадровик-расчетчик</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
